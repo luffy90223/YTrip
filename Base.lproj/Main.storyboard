@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jf7-vQ-xhG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View-->
+        <scene sceneID="fAw-gu-oUj">
+            <objects>
+                <viewController id="WcA-m1-6bY" customClass="MapViewController" customModule="Ryan_s_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3bd-vH-NbG"/>
+                        <viewControllerLayoutGuide type="bottom" id="sfj-BO-QeW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nBS-E1-YXO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map2" translatesAutoresizingMaskIntoConstraints="NO" id="hbh-Cl-b9A">
+                                <frame key="frameInset" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="DWQ-tD-jBy">
+                                <frame key="frameInset" minX="235" minY="352" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img5" translatesAutoresizingMaskIntoConstraints="NO" id="Pd1-xC-fdZ">
+                                <frame key="frameInset" minX="46" minY="88" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img6" translatesAutoresizingMaskIntoConstraints="NO" id="Nlf-jK-vsy">
+                                <frame key="frameInset" minX="9" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img7" translatesAutoresizingMaskIntoConstraints="NO" id="Gun-8s-XUJ">
+                                <frame key="frameInset" minX="118" minY="209" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="aMK-BY-6sd">
+                                <frame key="frameInset" minX="147" minY="254" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map View" image="map" id="edr-gk-nCm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vda-uJ-rOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2045.5999999999999" y="483.50824587706148"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Gm2-at-47h">
+            <objects>
+                <viewController id="vpu-KU-KZr" customClass="HomeViewController" customModule="Ryan_s_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AvE-i2-60t"/>
+                        <viewControllerLayoutGuide type="bottom" id="fr8-im-OMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z0i-at-Td7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ3-A9-mqC">
+                                <frame key="frameInset" minX="147" minY="293" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Photo"/>
+                                <connections>
+                                    <segue destination="L1U-mw-R0N" kind="show" id="E9O-rQ-fkF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6A-Ww-Ot8">
+                                <frame key="frameInset" minX="147" minY="390" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Gallery"/>
+                                <connections>
+                                    <segue destination="PLL-bg-nen" kind="show" id="dfx-Zp-eNG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Uja-lp-Gvp">
+                                <frame key="frameInset" minX="147" minY="196" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BNq-Cp-sUC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ffy-DC-Ang" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="73.313343328335833"/>
+        </scene>
+        <!--Gallery View Controller-->
+        <scene sceneID="Buf-T9-4WR">
+            <objects>
+                <viewController id="L1U-mw-R0N" customClass="GalleryViewController" customModule="Ryan_s_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X9h-AH-DFK"/>
+                        <viewControllerLayoutGuide type="bottom" id="55E-Os-Ot9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o2a-Hu-gKG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img2" translatesAutoresizingMaskIntoConstraints="NO" id="p6E-Rm-zXc">
+                                <frame key="frameInset" minY="-17" width="375" height="702"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONX-gd-OAh">
+                                <frame key="frameInset" minX="159" height="44" maxX="159" maxY="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="D59-1z-pkB">
+                                        <connections>
+                                            <action selector="tapButton:" destination="L1U-mw-R0N" id="Y7J-Hh-0g2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.3420720163" blue="0.404895112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="p6E-Rm-zXc" id="so3-nj-HQP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZn-BI-0Xu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1092" y="-634.632683658171"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OLg-2H-vZb">
+            <objects>
+                <tabBarController id="PLL-bg-nen" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0dg-gZ-bhT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                <color key="value" red="1" green="0.33326124957179204" blue="0.34262364245198429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WcA-m1-6bY" kind="relationship" relationship="viewControllers" id="aSi-Gc-rtm"/>
+                        <segue destination="gDh-Wg-zEy" kind="relationship" relationship="viewControllers" id="0e8-bm-XvY"/>
+                        <segue destination="bvc-Fg-Ods" kind="relationship" relationship="viewControllers" id="Sqq-SF-dL0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lcR-Io-Cc4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarItem systemItem="recents" id="HOx-yO-fgd"/>
+            </objects>
+            <point key="canvasLocation" x="1092" y="74.212893553223395"/>
+        </scene>
+        <!--List View-->
+        <scene sceneID="7IG-Wt-gaS">
+            <objects>
+                <tableViewController id="gDh-Wg-zEy" customClass="TableViewController" customModule="Ryan_s_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="YN7-Pe-9d1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8bx-Nm-5wq">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8bx-Nm-5wq" id="Iul-hA-7VE">
+                                    <frame key="frameInset" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gDh-Wg-zEy" id="Dvm-pE-kQi"/>
+                            <outlet property="delegate" destination="gDh-Wg-zEy" id="J5P-GO-1aN"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="List View" image="List" id="40V-25-8og"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rXK-QC-XKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2036" y="-298.2008995502249"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="Ve7-XX-pO2">
+            <objects>
+                <viewController id="bvc-Fg-Ods" customClass="MusicViewController" customModule="Ryan_s_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5dU-gW-HvG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ipm-41-uqA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b5C-6y-7RA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoS-Ws-VfF">
+                                <frame key="frameInset" minX="147" minY="196" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="play:" destination="bvc-Fg-Ods" eventType="touchUpInside" id="s4q-2I-2iT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jx-yP-G8S">
+                                <frame key="frameInset" minX="147" minY="293" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pause"/>
+                                <connections>
+                                    <action selector="pause:" destination="bvc-Fg-Ods" eventType="touchUpInside" id="4co-7u-3vo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dr5-OW-oRp">
+                                <frame key="frameInset" minX="147" minY="390" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="replay"/>
+                                <connections>
+                                    <action selector="restart:" destination="bvc-Fg-Ods" eventType="touchUpInside" id="29w-sG-Q0a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music" image="music" id="bpb-mh-G4E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQM-TM-U7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2832.8000000000002" y="100.29985007496252"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qL7-3Y-L3H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jf7-vQ-xhG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" misplaced="YES" id="bTe-tF-A0Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="1" green="0.28376960689634478" blue="0.34305149359092413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vpu-KU-KZr" kind="relationship" relationship="rootViewController" id="uu3-oO-fSe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gI2-mu-bcP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-569" y="73"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gallery" width="139" height="139"/>
+        <image name="List" width="21" height="17"/>
+        <image name="Logo" width="139" height="139"/>
+        <image name="Photo" width="139" height="139"/>
+        <image name="img1" width="400" height="400"/>
+        <image name="img2" width="400" height="400"/>
+        <image name="img5" width="400" height="400"/>
+        <image name="img6" width="400" height="400"/>
+        <image name="img7" width="400" height="400"/>
+        <image name="map" width="25" height="25"/>
+        <image name="map2" width="375" height="667"/>
+        <image name="music" width="21" height="25"/>
+        <image name="pause" width="85" height="85"/>
+        <image name="play" width="85" height="85"/>
+        <image name="replay" width="85" height="85"/>
+    </resources>
+</document>
